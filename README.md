@@ -1,28 +1,30 @@
 # RecipesBook
+Projekat Recipe Book 
+Aplikacija ima sledeće opcije
+-dodavanje/izmenu/brisanje recepata
+-dodavanje/izmenu/brisanje namirnica
+-kreiranje spiska namirnica potrebnih za recept
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Korišćene tehnologije
+- Angular 6
+- Bootstrap 3
+- Node.JS
+- Google Firebase
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pokretanje aplikacije 
 
-## Code scaffolding
+### Klonirati repositorijum
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+git clone https://github.com/TanjaCucurovic/Recipe-book.git
 
-## Build
+### Instalirati npm pakete
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Instalirati npm pakovanja opisana u package.json:
 
-## Running unit tests
+npm install
+ 
+### npm skripta
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# Recipe-book
+Pokrenuti
+-`ng serve` za dev server. Otvoriti u Google Chrome `http://localhost:4200/`. Aplikacija će se automatski osvežiti kada se promeni kod.
